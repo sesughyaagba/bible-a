@@ -28,7 +28,7 @@ getRandomVerse(arr);
 //what happens when 'read' Button Will Click
 readBtn.addEventListener("click", () => {
     readBtn.style.display = "none";
-    window.location.href = "/bibleApp1.html";
+    window.location.href = "./bibleApp1.html";
 });
 
 // Fetching the JSON file

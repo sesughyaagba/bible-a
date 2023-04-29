@@ -1,5 +1,5 @@
 // Fetches a JSON file containing the books the old testament from the server
-fetch("old-testament.json")
+fetch("./old-testament.json")
     .then(function (resp) {
         return resp.json();
     })
@@ -65,7 +65,7 @@ function function1(script, data) {
 }
 
 // Fetches a JSON file containing the books the new testament from the server
-fetch("/new-testament.json")
+fetch("./new-testament.json")
     .then(function (resp) {
         return resp.json();
     })
